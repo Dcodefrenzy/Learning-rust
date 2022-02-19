@@ -2,21 +2,25 @@
 struct Person {
   name: String, 
   age:u32,
-  gender:char
+  gender:char,
+  phoneNumber:u64
 }
 
 fn main() {
   let papa = Person {
     name: "Ayodeji Fakunle".to_string(), 
     age:25,
-    gender:'M'
+    gender:'M',
+    phoneNumber: 09133475878
+    
   };
 
   let Person {
     name,
     age,
-    gender
+    gender,
+    phoneNumber
   } = papa;
 
-println!("{}, age {}, gender {}", name, age, gender);
+println!("{}, age {}, gender {}", name, age, gender, phoneNumber);
 }
