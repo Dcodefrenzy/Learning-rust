@@ -20,8 +20,8 @@ fn main() {
     name: "Ayodeji Fakunle".to_string(), 
     age:25,
     gender:'M',
-    
-  };
+  }
+    papa.CallName();
+};
 
 
-}
